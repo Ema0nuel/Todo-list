@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#name,
+#note {
+  border: 1px solid #303030;
+}
+.borderfluid:focus {
+  border: 2px solid #000;
+}
+.off-border {
+  border: 2px solid rgb(209 213 219);
+}
