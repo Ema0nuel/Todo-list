@@ -2,9 +2,9 @@
   "name": "tailwindcss",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "build": "tailwindcss -i ./input.css -o ./css/main.css --output public",
     "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
   },
   "keywords": [],
